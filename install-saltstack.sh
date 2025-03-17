@@ -32,6 +32,8 @@ else
   echo "Salt repo configuration already exists."
 fi
 
+sudo apt update
+
 # Show menu
 echo "Please select the components you want to install (comma separated list):"
 echo "1) salt-master"
